@@ -1,6 +1,9 @@
 dependency:
-	cd build && cmake .. --graphviz=graph.dot && dot -Tpng graph.dot -o graph_image.png
+	cd build && cmake .. && make
 
 prepare:
 	rm -rf build
 	mkdir build
+
+equity:
+	cd build/app && ./executable_equity
