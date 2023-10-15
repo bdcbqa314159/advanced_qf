@@ -1,9 +1,11 @@
 set(LIBRARY_SOURCES
     equity1.cpp
+    equity2.cpp
 )
 
 set(LIBRARY_HEADERS
     equity1.hpp
+    equity2.hpp
 )
 
 set(LIBRARY_INCLUDES
