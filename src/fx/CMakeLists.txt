@@ -1,22 +1,22 @@
 set(LIBRARY_SOURCES
-    equity1.cpp
-    equity2.cpp
+    fx1.cpp
+    fx_print.cpp
 )
 
 set(LIBRARY_HEADERS
-    equity1.hpp
-    equity2.hpp
+    fx1.hpp
+    fx_print.hpp
 )
 
 set(LIBRARY_INCLUDES
     "./"
 )
 
-add_library(${LIBRARY_EQ} STATIC
+add_library(${LIBRARY_FX} STATIC
     ${LIBRARY_SOURCES}
     ${LIBRARY_HEADERS})
 
-target_include_directories(${LIBRARY_EQ} PUBLIC
+target_include_directories(${LIBRARY_FX} PUBLIC
     ${LIBRARY_INCLUDES})
 
-target_link_libraries(${LIBRARY_EQ} PUBLIC ${LIBRARY_RANDOM})
+target_link_libraries(${LIBRARY_FX} PUBLIC ${LIBRARY_LINEAR_ALGEBRA})
