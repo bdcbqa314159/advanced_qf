@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(LIBRARY_RANDOM my_lib_random)
+set(LIBRARY_LINEAR_ALGEBRA my_linear_algebra)
 set(LIBRARY_EQ my_lib_equity)
 set(EXECUTABLE_NAME executable_equity)
 
