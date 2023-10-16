@@ -1,9 +1,9 @@
 set(LIBRARY_SOURCES
-    credit.cpp
+    credit1.cpp
 )
 
 set(LIBRARY_HEADERS
-    credit.hpp
+    credit1.hpp
 )
 
 set(LIBRARY_INCLUDES

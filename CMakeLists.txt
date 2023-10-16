@@ -13,7 +13,10 @@ set(LIBRARY_FX my_lib_fx)
 set(LIBRARY_IR my_lib_ir)
 set(LIBRARY_CREDIT my_lib_credit)
 
-set(EXECUTABLE_NAME executable_equity)
+set(EXECUTABLE_EQ executable_equity)
+set(EXECUTABLE_FX executable_fx)
+set(EXECUTABLE_IR executable_ir)
+set(EXECUTABLE_CREDIT executable_credit)
 
 
 add_subdirectory(src)
