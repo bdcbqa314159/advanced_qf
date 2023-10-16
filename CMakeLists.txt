@@ -10,6 +10,7 @@ set(LIBRARY_RANDOM my_lib_random)
 set(LIBRARY_LINEAR_ALGEBRA my_linear_algebra)
 set(LIBRARY_EQ my_lib_equity)
 set(LIBRARY_FX my_lib_fx)
+set(LIBRARY_IR my_lib_ir)
 
 set(EXECUTABLE_NAME executable_equity)
 
