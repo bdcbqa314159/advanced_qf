@@ -11,6 +11,7 @@ set(LIBRARY_LINEAR_ALGEBRA my_linear_algebra)
 set(LIBRARY_EQ my_lib_equity)
 set(LIBRARY_FX my_lib_fx)
 set(LIBRARY_IR my_lib_ir)
+set(LIBRARY_CREDIT my_lib_credit)
 
 set(EXECUTABLE_NAME executable_equity)
 
